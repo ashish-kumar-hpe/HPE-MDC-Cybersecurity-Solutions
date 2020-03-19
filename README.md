@@ -19,6 +19,15 @@ MITRE ATTACK NOTEBOOKS
         Tested : Full 1v & nf for 85th day
         Comments :
 
+    Attack : Third Party Software(T1072)
+        Notebook : Third_Party_Software_Wiper.ipynb
+        Graph    : Neo4j
+        Data Loading : neo4j-import
+        Data Needed : LANL 1v & nf
+        queries : 2
+        Tested : Full 1v & nf for 85th day
+        Comments : This query is only applicable for Wiper malware under Third Party Software(CAN NOT BE GENERALIZED FOR THE ATTACK)
+
 OTHER NOTEBOOKS AND SCRIPTS
     SCRIPT 1 : 1v data modification for neo4j-import 
         Notebook : 1v_modify.ipynb
